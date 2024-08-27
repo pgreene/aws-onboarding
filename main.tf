@@ -13,7 +13,7 @@ module "org" {
 module "org_account" {
     source = "git@github.com:pgreene/terraform-aws-organizations-account.git?ref=1.0.1"
     name = local.org
-    email = "ferensick@gmail.com"
+    email = local.email
     close_on_deletion = true
     create_govcloud = false
     iam_user_access_to_billing = "ALLOW"

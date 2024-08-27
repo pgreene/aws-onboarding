@@ -2,6 +2,7 @@ locals {
     account_id = "358665735850"
     region = "us-east-1"
     environment = "prod"
+    email = "your@email.com" # Enter your email here
     name = "my-aws-org"
     org = "my-aws-org"
     ou = "my-ou"
