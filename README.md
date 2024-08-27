@@ -10,6 +10,7 @@ AWS account onboarding process
 * Configure your [new AWS CLI Profile](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html) locally with retrieved credentials and verify it exists: `aws configure list-profiles`
 * Clone this repo: `git clone git@github.com:pgreene/aws-onboarding.git`
 * In **locals.tf** on *line 5*, enter your email address.
+* In **provider.tf** change the AWS `profile` name accordingly. Currently it is set to `default`.
 * Navigate to this directory in your terminal: `cd ./aws-onboarding`
 * From this directory in your terminal run:
 
